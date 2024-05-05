@@ -1,0 +1,99 @@
+.thead {
+    color: rgb(178, 238, 224);
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    letter-spacing: 2px;
+}
+
+.theadP{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+table {
+    border-collapse: collapse;
+    margin-right: 7cm;
+    margin-left: 7cm;
+    }
+
+table tr td, table tr th {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.submitR{
+    padding-left: 6cm;
+}
+
+
+table tbody tr td:nth-of-type(n+2):nth-of-type(odd){
+    background-color: rgba(0,0,0, 0.2);
+}
+
+#submit{
+    padding: 5px;
+    background-color: rgb(54, 154, 54);
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 0.5cm;
+}
+
+.linkA{
+    position: relative;
+    left: 5cm;
+    font-size: 17px;
+}
+
+.linkA:hover{
+    position: relative;
+    left: 5cm;
+    font-size: 17px;
+    color: blue;
+    text-decoration: none;
+}
+.linkA:active{
+    position: relative;
+    left: 5cm;
+    font-size: 17px;
+    color: brown;
+    text-decoration: none;
+}
+
+.linkA:visited{
+    position: relative;
+    left: 5cm;
+    font-size: 17px;
+    color: purple;
+}
+
+.marksI{
+    outline: 0;
+}
+
+
+.openApp{
+    border: 0;
+    outline: 0;
+    padding: 5px;
+    color: black;
+    font-size: 20px;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    background-color: rgba(84, 28, 105, 0.7);
+    border-radius: 6px;
+    
+}
+
+.openP{
+    width: 100%;
+    /* background-color: gray; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
